@@ -1,0 +1,360 @@
+
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.font_righteous {
+    font-family: 'Righteous', cursive;
+}
+
+.bck_black {
+    background: #3c3c3c;
+}
+.bck_white {
+    background: #ffffff;
+}
+.bck_red {
+    background: #ff4800;
+}
+.bck_yellow {
+    background: #ffa800;
+}
+
+.iconImage {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.center_wrapper {
+    width: 900px;
+    margin:0 auto;
+}
+
+
+/*====================
+        HEADER
+======================*/
+
+
+header {
+    padding:10px 0px;
+    transition: all 300ms ease-in;
+}
+
+header .header_logo {
+    flex-grow: 1;
+}
+header .header_logo_venue {
+    font-size: 40px;
+}
+
+header .header_logo_title {
+    text-transform: uppercase;
+}
+
+/*====================
+        FOOTER
+======================*/
+
+footer {
+    padding:50px 0px;
+    text-align: center;
+    font-size: 60px;
+    color:#ffffff;
+    background: red;
+}
+
+footer .footer_copyright {
+    font-size: 18px;
+}
+
+/*====================
+        CARROUSEL
+======================*/
+
+
+.carrousel_wrapper {
+    height:700px;
+    overflow: hidden;
+}
+
+.carrousel_image {
+    
+    background-size: cover !important;
+}
+
+.artist_name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 160px;
+    -webkit-transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);   
+    border: 2px solid white;
+}
+
+.artist_name .wrapper {
+    border: 2px solid white;
+    height: 121px;
+    margin: 6px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding: 21px 70px 0px 70px;
+    text-transform: uppercase;
+}
+
+/*====================
+        COUNTDOWN
+======================*/
+
+.countdown_wrapper {
+    position:absolute;
+    bottom: 0px;
+    color:#ffffff;
+}
+
+.countdown_wrapper .countdown_top {
+    background: #ff4800;
+    font-size: 19px;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.countdown_wrapper .countdown_bottom {
+    display: flex;
+    background: #d93d00;
+    padding: 10px 20px;
+}
+
+.countdown_wrapper .countdown_time {
+    font-size: 70px;
+    border-right: 1px solid #F44336;
+    margin-right: 14px;
+    padding-right: 49px;
+}
+.countdown_wrapper .countdown_item:last-child .countdown_time{
+    border:none;
+}
+
+.countdown_wrapper .countdown_tag {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 7px;
+}
+
+/*====================
+        VENUE NFO
+======================*/
+
+.vn_wrapper {
+    display: flex;
+    padding: 170px 0px;
+}
+
+.vn_item {
+    width:50%;
+    color:#ffffff;
+    text-align: center;
+}
+                      
+.vn_item .vn_outer {
+    width: 300px;
+    border: 2px solid #828282;
+    margin: auto;
+    padding: 5px;
+}
+
+.vn_item .vn_inner { 
+    border: 2px solid #828282;
+    position: relative;
+    padding: 0px 20px;
+    transition: all 500ms ease;
+}
+
+.vn_item .vn_inner:hover {
+    background: #3e3e3e;
+}
+
+.vn_item .vn_icon_square {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -54px;
+    left: 100px;
+}
+
+.vn_item .vn_icon {
+    width: 50px;
+    height: 50px;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    position: absolute;
+    top: -30px;
+    left: 124px;
+}
+
+.vn_item .vn_title {
+    font-size: 28px;
+    margin: 90px 0px 20px 0px;
+    border-bottom: 1px solid #5d5d5d;
+    padding-bottom: 10px;
+}
+
+.vn_item .vn_desc {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 90px;
+}
+
+/*====================
+        HIGHLIGHTS
+======================*/
+
+
+.highlight_wrapper h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color:#2c2c2c;
+    font-size: 52px;
+}
+
+.highlight_wrapper .highlight_description {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 30px 0px;
+}
+
+.discount_wrapper {
+    display: flex;
+    padding: 70px 0px;
+}
+
+.discount_wrapper .discount_porcentage {
+    padding-right: 100px;
+}
+
+.discount_wrapper .discount_porcentage span:nth-child(1) {
+    color: #ff4800;
+    font-size: 125px;
+    font-weight: 400;
+    display: block;
+    line-height: 120px;
+}
+
+.discount_wrapper .discount_porcentage span:nth-child(2) {
+    color: #2c2c2c;
+    font-size: 50px;
+    font-weight: 400;
+    display: block;
+}
+
+
+.discount_wrapper .discount_description h3 {
+    font-size: 34px;
+    font-weight: 100;
+    margin: 0px;
+    color: #2c2c2c;
+}
+
+.discount_wrapper .discount_description p { 
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*====================
+        PRICING
+======================*/
+
+.pricing_section {
+    padding: 70px 0px;
+}
+
+
+.pricing_section h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+.pricing_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pricing_wrapper .pricing_item{
+    flex-grow: 1;
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.pricing_wrapper .pricing_inner_wrapper {
+    border:2px solid #ffa800;
+    padding: 50px 20px;
+}
+
+.pricing_inner_wrapper .pricing_title {
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 1px solid #ffa800;
+    padding-bottom: 20px;
+}
+.pricing_inner_wrapper .pricing_title span:nth-child(1) {
+    font-size: 50px;
+    display: block;
+}
+.pricing_inner_wrapper .pricing_title span:nth-child(2) {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 300;
+}
+.pricing_inner_wrapper .pricing_description {
+    color: #b8b8b8;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 0px;
+    min-height: 70px;
+}
+
+.pricing_inner_wrapper .pricing_buttons {
+     text-align: center;
+}
+
+
+/*====================
+        LOCATION    
+======================*/
+
+.location_wrapper {
+    position:relative;
+}
+
+.location_tag {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.location_tag div{
+    background: #2c2c2c;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 220px;
+    margin: 0 auto;
+    font-size: 29px;
+    padding: 15px 20px;
+    text-align: center;
+}
