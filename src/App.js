@@ -6,7 +6,7 @@ import {
 import { create } from "jss";
 import rtl from "jss-rtl";
 import React from "react";
-import Header from "./assets/components/header_footer/Header";
+import Header from "./components/header_footer/Header";
 import CustomTheme from "./assets/CustomTheme";
 import "./assets/fonts/css/fontiran.css";
 import "./assets/styles.css";
