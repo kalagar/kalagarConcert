@@ -1,4 +1,5 @@
 import React from "react";
+import ConcertInfo from "../concertInfo";
 import Carrousel from "./Carrousel";
 import Countdown from "./Countdown";
 

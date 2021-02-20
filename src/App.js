@@ -11,6 +11,7 @@ import CustomTheme from "./assets/CustomTheme";
 import "./assets/fonts/css/fontiran.css";
 import "./assets/styles.css";
 import Featured from "./components/featured";
+import ConcertInfo from "./components/concertInfo";
 
 // Configure JSS
 const jss = create({ plugins: [...jssPreset().plugins, rtl()] });
@@ -22,6 +23,7 @@ function App() {
         <div style={{ height: "1500px", background: "lightblue" }}>
           <Header />
           <Featured />
+          <ConcertInfo />
         </div>
       </StylesProvider>
     </ThemeProvider>

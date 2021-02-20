@@ -142,36 +142,36 @@ footer .footer_copyright {
         VENUE NFO
 ======================*/
 
-.vn_wrapper {
+.cn_wrapper {
   display: flex;
   padding: 170px 0px;
 }
 
-.vn_item {
+.cn_item {
   width: 50%;
   color: #ffffff;
   text-align: center;
 }
 
-.vn_item .vn_outer {
+.cn_item .cn_outer {
   width: 300px;
   border: 2px solid #828282;
   margin: auto;
   padding: 5px;
 }
 
-.vn_item .vn_inner {
+.cn_item .cn_inner {
   border: 2px solid #828282;
   position: relative;
   padding: 0px 20px;
   transition: all 500ms ease;
 }
 
-.vn_item .vn_inner:hover {
+.cn_item .cn_inner:hover {
   background: #3e3e3e;
 }
 
-.vn_item .vn_icon_square {
+.cn_item .cn_icon_square {
   width: 100px;
   height: 100px;
   position: absolute;
@@ -182,7 +182,7 @@ footer .footer_copyright {
   left: 100px;
 }
 
-.vn_item .vn_icon {
+.cn_item .cn_icon {
   width: 50px;
   height: 50px;
   background-size: contain !important;
@@ -192,14 +192,14 @@ footer .footer_copyright {
   left: 124px;
 }
 
-.vn_item .vn_title {
+.cn_item .cn_title {
   font-size: 28px;
   margin: 90px 0px 20px 0px;
   border-bottom: 1px solid #5d5d5d;
   padding-bottom: 10px;
 }
 
-.vn_item .vn_desc {
+.cn_item .cn_desc {
   font-size: 30px;
   font-weight: 300;
   margin-bottom: 90px;

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Slide from "react-reveal/Slide";
 
 function Countdown() {
   const deadline = "Jan, 10, 2021";
@@ -29,27 +30,29 @@ function Countdown() {
   }, []);
 
   return (
-    <div className="countdown_wrapper">
-      <div className="countdown_top">شروع کنسرت در</div>
-      <div className="countdown_bottom">
-        <div className="countdown_item">
-          <div className="countdown_time">{days}</div>
-          <div className="countdown_tag">روز</div>
-        </div>
-        <div className="countdown_item">
-          <div className="countdown_time">{hours}</div>
-          <div className="countdown_tag">ساعت</div>
-        </div>
-        <div className="countdown_item">
-          <div className="countdown_time">{minutes}</div>
-          <div className="countdown_tag">دقیقه</div>
-        </div>
-        <div className="countdown_item">
-          <div className="countdown_time">{seconds}</div>
-          <div className="countdown_tag">ثانیه</div>
+    <Slide right delay={1000}>
+      <div className="countdown_wrapper">
+        <div className="countdown_top">شروع کنسرت در</div>
+        <div className="countdown_bottom">
+          <div className="countdown_item">
+            <div className="countdown_time">{days}</div>
+            <div className="countdown_tag">روز</div>
+          </div>
+          <div className="countdown_item">
+            <div className="countdown_time">{hours}</div>
+            <div className="countdown_tag">ساعت</div>
+          </div>
+          <div className="countdown_item">
+            <div className="countdown_time">{minutes}</div>
+            <div className="countdown_tag">دقیقه</div>
+          </div>
+          <div className="countdown_item">
+            <div className="countdown_time">{seconds}</div>
+            <div className="countdown_tag">ثانیه</div>
+          </div>
         </div>
       </div>
-    </div>
+    </Slide>
   );
 }
 
