@@ -12,6 +12,7 @@ import "./assets/fonts/css/fontiran.css";
 import "./assets/styles.css";
 import Featured from "./components/featured";
 import ConcertInfo from "./components/concertInfo";
+import Highlights from "./components/highlights";
 
 // Configure JSS
 const jss = create({ plugins: [...jssPreset().plugins, rtl()] });
@@ -24,6 +25,7 @@ function App() {
           <Header />
           <Featured />
           <ConcertInfo />
+          <Highlights />
         </div>
       </StylesProvider>
     </ThemeProvider>

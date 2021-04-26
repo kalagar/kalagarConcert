@@ -231,7 +231,7 @@ footer .footer_copyright {
 }
 
 .discount_wrapper .discount_porcentage {
-  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .discount_wrapper .discount_porcentage span:nth-child(1) {
